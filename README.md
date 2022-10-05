@@ -3,7 +3,7 @@
 Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic priority-based preemptive scheduling policy, meaning that the priority of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task.
 
 
->How to implement an EDF scheduler using FreeRTOS.
+>implemention an EDF scheduler using FreeRTOS.
 
 1. In the ""prvIdleTask"" function.
    
@@ -16,6 +16,23 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 3. In the ""xTaskIncrementTick"" function:
    
    -Make sure that as soon as a new task is available in the EDF ready list, a context switching should take place.
+
+>Verifying an EDF scheduler implementation
+
+1. Using analytical methods calculate the following for the given set of tasks:
+
+  -Calculate the system hyperperiod
+  -Calculate the CPU load
+  -Check system schedulability using URM and time demand analysis techniques (Assuming the given set of tasks are scheduled using a fixed priority rate monotonic scheduler)
+  
+2. Using Simso offline simulator, simulate the given set of tasks assuming:
+
+  -Fixed priority rate monotonic scheduler "
+  
+3. Using Keil simulator in run-time and the given set of tasks:
+
+  -Calculate the CPU usage time.
+
 
 
 ### Task List
