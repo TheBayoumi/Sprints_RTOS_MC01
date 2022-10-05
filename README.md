@@ -5,7 +5,7 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 
 ## Implemention an EDF scheduler using FreeRTOS
 
-1. In the ""prvIdleTask"" function
+1. In the ""prvIdleTask"" function:
    
       -Modify the idle task to keep it always the farest deadline
 
