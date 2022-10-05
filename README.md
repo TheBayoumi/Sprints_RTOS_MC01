@@ -1,4 +1,4 @@
-# Sprints_RTOS_MC01
+ ### Sprints_RTOS_MC01
 
 Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic priority-based preemptive scheduling policy, meaning that the priority of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task.
 
@@ -25,9 +25,9 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
       -Calculate the CPU load
       -Check system schedulability using URM and time demand analysis techniques (Assuming the given set of tasks are scheduled using a fixed priority rate monotonic scheduler)
   
-2. Using Simso offline simulator, simulate the given set of tasks assuming:
+2. Using Simso offline simulator.
 
-      -Fixed priority rate monotonic scheduler "
+      -Fixed priority rate monotonic scheduler.
   
 3. Using Keil simulator in run-time.
 
