@@ -1,9 +1,9 @@
- ### Sprints_RTOS_MC01
+ # Sprints_RTOS_MC01
 
 Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic priority-based preemptive scheduling policy, meaning that the priority of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task
 
 
-# implemention an EDF scheduler using FreeRTOS
+## implemention an EDF scheduler using FreeRTOS
 
 1. In the ""prvIdleTask"" function
    
@@ -17,7 +17,7 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
    
       -Make sure that as soon as a new task is available in the EDF ready list, a context switching should take place
 
-# Verification of an EDF scheduler implementation
+## Verification of an EDF scheduler implementation
 
 1. Using analytical methods calculate the following for the given set of tasks:
 
@@ -38,7 +38,7 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 
 
 
-# Task List
+## Task List
 
 - [x] Task 1: ""Button_1_Monitor"", {Periodicity: 50, Deadline: 50}
 
