@@ -29,7 +29,7 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 
       -Fixed priority rate monotonic scheduler "
   
-3. Using Keil simulator in run-time and the given set of tasks:
+3. Using Keil simulator in run-time.
 
       -Calculate the CPU usage time.
 
@@ -39,19 +39,19 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 
 - [x] Task 1: ""Button_1_Monitor"", {Periodicity: 50, Deadline: 50}
 
--This task will monitor rising and falling edge on button 1 and send this event to the consumer task. (Note: The rising and failling edges are treated as separate events, hence they have separate strings)
+      -This task will monitor rising and falling edge on button 1 and send this event to the consumer task. (Note: The rising and failling edges are treated as separate events, hence they have separate strings)
 
 - [x] Task 2: ""Button_2_Monitor"", {Periodicity: 50, Deadline: 50}
 
--This task will monitor rising and falling edge on button 2 and send this event to the consumer task. (Note: The rising and failling edges are treated as separate events, hence they have separate strings)
+      -This task will monitor rising and falling edge on button 2 and send this event to the consumer task. (Note: The rising and failling edges are treated as separate events, hence they have separate strings)
 
 - [x] Task 3: ""Periodic_Transmitter"", {Periodicity: 100, Deadline: 100}
 
--This task will send preiodic string every 100ms to the consumer task
+      -This task will send preiodic string every 100ms to the consumer task
 
 - [x] Task 4: ""Uart_Receiver"", {Periodicity: 20, Deadline: 20}
 
--This is the consumer task which will write on UART any received string from other tasks
+      -This is the consumer task which will write on UART any received string from other tasks
 
 - [x] Task 5: ""Load_1_Simulation"", {Periodicity: 10, Deadline: 10}, Execution time: 5ms
 
