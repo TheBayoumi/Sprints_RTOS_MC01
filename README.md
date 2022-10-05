@@ -6,12 +6,15 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 >How to implement an EDF scheduler using FreeRTOS.
 
 1. In the ""prvIdleTask"" function.
+   
    -Modify the idle task to keep it always the farest deadline
 
 2. In the ""xTaskIncrementTick"" function:
+   
    -In every tick increment, calculate the new task deadline and insert it in the correct position in the EDF ready list"
 
 3. In the ""xTaskIncrementTick"" function:
+   
    -Make sure that as soon as a new task is available in the EDF ready list, a context switching should take place.
 
     ### Task List
