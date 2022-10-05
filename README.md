@@ -17,7 +17,8 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
    
    -Make sure that as soon as a new task is available in the EDF ready list, a context switching should take place.
 
-    ### Task List
+
+### Task List
 
 - [x] Task 1: ""Button_1_Monitor"", {Periodicity: 50, Deadline: 50}
 
