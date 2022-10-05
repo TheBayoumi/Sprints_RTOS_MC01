@@ -8,4 +8,11 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 1. Read a thesis and implement the mentioned changes
 2. Implement the missing changes from the thesis
 3. Implement 4 tasks using EDF scheduler
-3. Verifying the system implementation
+4. Verifying the system implementation
+    -[1] task 1
+    ### Task List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+    
