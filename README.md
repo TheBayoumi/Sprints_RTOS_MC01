@@ -1,21 +1,21 @@
  ### Sprints_RTOS_MC01
 
-Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic priority-based preemptive scheduling policy, meaning that the priority of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task.
+Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic priority-based preemptive scheduling policy, meaning that the priority of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task
 
 
->implemention an EDF scheduler using FreeRTOS.
+>implemention an EDF scheduler using FreeRTOS
 
-1. In the ""prvIdleTask"" function.
+1. In the ""prvIdleTask"" function
    
       -Modify the idle task to keep it always the farest deadline
 
 2. In the ""xTaskIncrementTick"" function:
    
-      -In every tick increment, calculate the new task deadline and insert it in the correct position in the EDF ready list"
+      -In every tick increment, calculate the new task deadline and insert it in the correct position in the EDF ready list
 
 3. In the ""xTaskIncrementTick"" function:
    
-      -Make sure that as soon as a new task is available in the EDF ready list, a context switching should take place.
+      -Make sure that as soon as a new task is available in the EDF ready list, a context switching should take place
 
 >Verification of an EDF scheduler implementation
 
@@ -28,13 +28,13 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
       
       -Check system schedulability using URM and time demand analysis techniques (Assuming the given set of tasks are scheduled using a fixed priority rate monotonic scheduler)
   
-2. Using Simso offline simulator.
+2. Using Simso offline simulator
 
-      -Fixed priority rate monotonic scheduler.
+      -Fixed priority rate monotonic scheduler
   
-3. Using Keil simulator in run-time.
+3. Using Keil simulator in run-time
 
-      -Calculate the CPU usage time.
+      -Calculate the CPU usage time
 
 
 
