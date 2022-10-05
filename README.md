@@ -19,7 +19,7 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 
 ## Verification of an EDF scheduler implementation
 
-1. Using analytical methods calculate the following for the given set of tasks:
+1. Using analytical methods to calculate the following for the given set of tasks:
 
       
       -Calculate the system hyperperiod
