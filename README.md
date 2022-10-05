@@ -21,8 +21,11 @@ Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic pr
 
 1. Using analytical methods calculate the following for the given set of tasks:
 
+      
       -Calculate the system hyperperiod
+      
       -Calculate the CPU load
+      
       -Check system schedulability using URM and time demand analysis techniques (Assuming the given set of tasks are scheduled using a fixed priority rate monotonic scheduler)
   
 2. Using Simso offline simulator.
