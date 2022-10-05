@@ -1,4 +1,11 @@
 # Sprints_RTOS_MC01
 
-My EDF Schedulers RTOS Project is Completed
+Earliest Deadline First (EDF) is a shecduling algorithm that adopts a dynamic priority-based preemptive scheduling policy, meaning that the priority of a task can change during its execution, and the processing of any task is interrupted by a request for any higher priority task.
 
+
+>Design EDF scheduler
+
+1. Read a thesis and implement the mentioned changes
+2. Implement the missing changes from the thesis
+3. Implement 4 tasks using EDF scheduler
+3. Verifying the system implementation
